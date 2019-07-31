@@ -23,11 +23,11 @@
                             <div class="row p-t-20">
                                 <div class="col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                        <label for="tanggal">Tanggal</label>
+                                        <label for="tanggal">Tanggal<code>*</code></label>
                                         <input type="date" class="form-control" name="tanggal">
                                     </div>
                                     <div class="form-group">
-                                        <label for="uraian">Uraian</label>
+                                        <label for="uraian">Uraian<code>*</code></label>
                                         <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian"></textarea>
                                     </div>
                                     <div class="form-group">
@@ -48,7 +48,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="nominal">Nominal</label>
+                                        <label for="nominal">Nominal<code>*</code></label>
                                         <div class="input-group">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">Rp.</span>

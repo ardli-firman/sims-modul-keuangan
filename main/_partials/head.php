@@ -41,3 +41,5 @@
 <![endif]-->
     <link href="../assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
     <link href="../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/datatables/jquery.dataTables.min.css">
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>

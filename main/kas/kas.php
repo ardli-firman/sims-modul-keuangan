@@ -19,7 +19,12 @@
                         <thead>
                             <tr>
                                 <th>No</th>
+                                <th>tanggal</th>
                                 <th>Uraian</th>
+                                <th>Berkas</th>
+                                <th>Debit</th>
+                                <th>Kredit</th>
+                                <th>Saldo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -30,3 +35,30 @@
         </div>
     </div>
 </div>
+<script>
+    var data = [
+        [
+            "1",
+            "2019-31-07",
+            "Uraian",
+            "<i class='fa fa-file'></i>",
+            "2000",
+            "",
+            "2000"
+        ],
+        [
+            "2",
+            "2019-01-08",
+            "Uraian 2",
+            "<i class='fa fa-file'></i>",
+            "",
+            "1000",
+            "1000"
+        ]
+    ]
+    $(function() {
+        $('#tabel-kas').DataTable({
+            data: data
+        });
+    })
+</script>

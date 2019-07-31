@@ -1,5 +1,3 @@
-<script src="../assets/plugins/jquery/jquery.min.js"></script>
-
 <!-- Bootstrap tether Core JavaScript -->
 
 <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
@@ -32,8 +30,3 @@
 <script src="../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
 
 <script src="../assets/plugins/datatables/jquery.dataTables.min.js"></script>
-<script>
-    $(function() {
-        $('#tabel-kas').DataTable();
-    })
-</script>

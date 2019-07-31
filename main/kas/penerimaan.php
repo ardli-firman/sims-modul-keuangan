@@ -23,12 +23,12 @@
                             <div class="row p-t-20">
                                 <div class="col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                        <label for="tanggal">Tanggal</label>
-                                        <input type="date" class="form-control" name="tanggal">
+                                        <label for="tanggal">Tanggal<code>*</code></label>
+                                        <input type="date" class="form-control" name="tanggal" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="uraian">Uraian</label>
-                                        <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian"></textarea>
+                                        <label for="uraian">Uraian<code>*</code></label>
+                                        <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian" required></textarea>
                                     </div>
                                     <div class="form-group">
                                         <label for="berkas">Berkas</label>
@@ -48,15 +48,15 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="nominal">Nominal</label>
+                                        <label for="nominal">Nominal <code>*</code></label>
                                         <div class="input-group">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">Rp.</span>
                                             </div>
-                                            <input type="number" class="form-control" name="nominal" id="nominal">
+                                            <input type="number" class="form-control" name="nominal" id="nominal" required>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
+                                    <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Simpan</button>
                                 </div>
                             </div>
                         </div>
