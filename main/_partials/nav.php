@@ -38,6 +38,8 @@
                             <li><a href="?hal=pengeluaran">Pengeluaran</a></li>
                         </ul>
                     </li>
+                    <li> <a href="?hal=bos" class="waves-effect waves-dark" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Laporan Bos</span></a>
+                    </li>
                 </ul>
             </nav>
         </div>
