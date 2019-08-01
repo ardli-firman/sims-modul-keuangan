@@ -38,7 +38,10 @@
                             <li><a href="?hal=pengeluaran">Pengeluaran</a></li>
                         </ul>
                     </li>
-                    <li> <a href="?hal=bos" class="waves-effect waves-dark" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Laporan Bos</span></a>
+                    <li class="nav-devider"></li>
+                    <li class="nav-small-cap">Laporan Bos</li>
+                    <li> 
+                        <a href="?hal=bos" class="waves-effect waves-dark" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Laporan Bos</span></a>
                     </li>
                 </ul>
             </nav>
