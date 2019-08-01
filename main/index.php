@@ -21,8 +21,13 @@
                 case 'kas':
                     require_once 'kas/kas.php';
                     break;
+                case 'pajak':
+                    require_once 'pajak/pajak.php';
+                    break;
+                case 'bos':
+                    require_once 'bos/bos.php';
+                    break;
                 default:
-                    # code...
                     break;
             }
             ?>
