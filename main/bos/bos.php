@@ -59,7 +59,7 @@
 <div class="card card-outline-inverse">
 <div class="card-body">
  <p>Standar Pengelolaan</p>
-<a href="?hal=bos&menu=std_pengelola" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pengelolaan"><i class="mdi mdi-sitemap"></i></a>
+<a href="?hal=bos&menu=std_pengelola" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pengelolaan"><i class="mdi mdi-wrench"></i></a>
 </div>
 </div>
 </div>
