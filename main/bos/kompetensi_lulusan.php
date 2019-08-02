@@ -5,7 +5,7 @@
     <div class="col-md-7 align-self-center">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-            <li class="breadcrumb-item">Penerimaan</li>
+            <li class="breadcrumb-item">Kompetensi Kelulusan</li>
         </ol>
     </div>
 </div>
@@ -17,7 +17,7 @@
                     <form>
                         <div class="form-body">
                             <h3 class="card-title">
-                                Halaman Penerimaan
+                                Kompetensi Kelulusan
                             </h3>
                             <hr>
                             <div class="row p-t-20">
