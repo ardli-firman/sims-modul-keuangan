@@ -30,11 +30,12 @@
                                         <label for="uraian">Uraian kegiatan<code>*</code></label>
                                         <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian" required></textarea>
                                     </div>
-                                    
+
                                     <div class="form-group">
-                                        <label for="uraian" style="font-size: 20px;">Sumber Dana BOS</label>
-                                    </div><hr>
-                                    
+                                        <label style="font-size: 20px;">Penggunaan dana per sumber dana</label>
+                                    </div>
+                                    <h4>Sumber Dana BOS</h4>
+                                    <hr>
                                     <div class="row">
                                         <div class="form-group col-md-6">
                                             <label for="rutin">Rutin<code>*</code></label>
@@ -55,7 +56,7 @@
                                             </div>
                                         </div>
                                     </div>
-                         
+
                                     <div class="row">
                                         <div class="form-group col-md-6">
                                             <label for="provinsi">Provinsi<code>*</code></label>

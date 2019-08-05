@@ -45,6 +45,11 @@
                     <li> 
                         <a href="?hal=bos" class="waves-effect waves-dark" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Laporan Bos</span></a>
                     </li>
+                    <li class="nav-devider"></li>
+                    <li class="nav-small-cap">Rekap Pajak</li>
+                    <li> 
+                        <a href="?hal=pajak" class="waves-effect waves-dark" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Rekap Pajak</span></a>
+                    </li>
                 </ul>
             </nav>
         </div>
