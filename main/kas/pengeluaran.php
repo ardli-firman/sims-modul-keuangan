@@ -35,7 +35,7 @@
                                         <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <label for="berkas">Berkas</label>
+                                        <label for="berkas">Berkas<code>*</code></label>
                                         <div class="custom-file mb-3">
                                             <div class="fileinput input-group fileinput-new" data-provides="fileinput">
                                                 <div class="form-control" data-trigger="fileinput">
@@ -60,6 +60,9 @@
                                             </div>
                                             <input type="number" class="form-control" name="nominal" id="nominal">
                                         </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <small><code>Note : Yang bertanda * wajib diisi</code></small>
                                     </div>
                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
                                 </div>
