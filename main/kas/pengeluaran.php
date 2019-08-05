@@ -45,6 +45,7 @@
                                                 </span>
                                                 <a href="#" class="input-group-addon btn btn-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
                                             </div>
+                                            <small>Ukuran maksimal 500kb dengan ketentuan format .jpg, .png, .pdf</small>
                                         </div>
                                     </div>
                                     <div class="form-group">
