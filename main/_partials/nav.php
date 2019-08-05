@@ -31,6 +31,7 @@
                 <ul id="sidebarnav" class="in">
                     <li class="nav-devider"></li>
                     <li> <a class="waves-effect waves-dark" aria-expanded="false" href="index.php"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a>
+                    
                     <li class="nav-devider"></li>
                     <li class="nav-small-cap">Keuangan</li>
                     <li> <a class="has-arrow waves-effect waves-dark" aria-expanded="false"><i class="mdi mdi-currency-usd"></i><span class="hide-menu">Kas</span></a>
@@ -48,7 +49,7 @@
                     <li class="nav-devider"></li>
                     <li class="nav-small-cap">Rekap Pajak</li>
                     <li> 
-                        <a href="?hal=pajak" class="waves-effect waves-dark" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Rekap Pajak</span></a>
+                        <a href="?hal=pajak" class="waves-effect waves-dark" aria-expanded="false"><i class="fa fa-book"></i><span class="hide-menu">Rekap Pajak</span></a>
                     </li>
                 </ul>
             </nav>
