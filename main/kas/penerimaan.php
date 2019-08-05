@@ -27,6 +27,10 @@
                                         <input type="date" class="form-control" name="tanggal" required>
                                     </div>
                                     <div class="form-group">
+                                        <label for="no_kode">No Kode<code>*</code></label>
+                                        <input type="number" class="form-control" name="no_kode" placeholder="Masukkan no kode">
+                                    </div>
+                                    <div class="form-group">
                                         <label for="uraian">Uraian<code>*</code></label>
                                         <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian" required></textarea>
                                     </div>
