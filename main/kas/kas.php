@@ -26,7 +26,7 @@
                                             <option value="2">Februari</option>
                                         </select>
                                         <div class="input-group-append">
-                                            <span class="input-group-text bg-info b-0 text-white">TO</span>
+                                            <span class="input-group-text bg-info b-0 text-white">Sampai</span>
                                         </div>
                                         <select name="end" id="end" class="form-control">
                                             <option value="1">Januari</option>
