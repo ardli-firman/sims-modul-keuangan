@@ -62,6 +62,10 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
+                                        <label for="ppn">PPN</label>
+                                        <input class="form-control" type="number" name="ppn" id="ppn" readonly>
+                                    </div>
+                                    <div class="form-group">
                                         <small><code>Note : Yang bertanda * wajib diisi</code></small>
                                     </div>
                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
@@ -74,3 +78,12 @@
         </div>
     </div>
 </div>
+<script>
+    $(function() {
+        $('#nominal').keyup(function(e) {
+            let nominal = $(this).val()
+            let ppn = (100 / 110) * nominal * 0.1
+            $('#ppn').val(ppn.toFixed(0))
+        })
+    })
+</script>
