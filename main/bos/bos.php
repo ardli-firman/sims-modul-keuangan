@@ -39,40 +39,40 @@
         </div>
         <div class="row m-b-40 text-center">
 
-<div class="col-lg-3 col-md-6">
-<div class="card card-outline-inverse">
-<div class="card-body">
-<p>Sistem Penilaian</p>
-<a href="?hal=bos&menu=sys_nilai" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Sistem Penilaian"><i class="mdi mdi-calendar"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="card card-outline-inverse">
-<div class="card-body">
-<p>Sarana dan Prasarana Sekolah</p>
-<a href="?hal=bos&menu=sarpra_sekolah" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Sarana dan Prasarana Sekolah"><i class="fa fa-institution"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="card card-outline-inverse">
-<div class="card-body">
- <p>Standar Pengelolaan</p>
-<a href="?hal=bos&menu=std_pengelola" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pengelolaan"><i class="mdi mdi-wrench"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="card card-outline-inverse">
-<div class="card-body">
-<p>Standar Pembiyaan</p>
-<a href="?hal=bos&menu=std_biaya" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pembiyaan"><i class="mdi mdi-currency-usd"></i></a>
-</div>
-</div>
-</div>
-</div>
-</div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-outline-inverse">
+                    <div class="card-body">
+                        <p>Sistem Penilaian</p>
+                        <a href="?hal=bos&menu=sys_nilai" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Sistem Penilaian"><i class="mdi mdi-calendar"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-outline-inverse">
+                    <div class="card-body">
+                        <p>Sarana dan Prasarana Sekolah</p>
+                        <a href="?hal=bos&menu=sarpra_sekolah" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Sarana dan Prasarana Sekolah"><i class="fa fa-institution"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-outline-inverse">
+                    <div class="card-body">
+                        <p>Standar Pengelolaan</p>
+                        <a href="?hal=bos&menu=std_pengelola" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pengelolaan"><i class="mdi mdi-wrench"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-outline-inverse">
+                    <div class="card-body">
+                        <p>Standar Pembiyaan</p>
+                        <a href="?hal=bos&menu=std_biaya" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pembiyaan"><i class="mdi mdi-currency-usd"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
