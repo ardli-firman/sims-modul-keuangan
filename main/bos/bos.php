@@ -30,7 +30,7 @@
             <div class="col-lg-3 col-md-6 m-t-30">
                 <div class="card card-outline-inverse">
                     <div class="card-body">
-                        <p style="font-size: 13px;">Pendidikan & Tenaga Kependidikan</p>
+                        <p style="font-size: 14.5px;">Pendidikan & Tenaga Kependidikan</p>
                         <a href="?hal=bos&menu=pen_tk" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Pendidikan & Tenaga Kependidikan"><i class="mdi mdi-human-greeting"></i></a>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
 <div class="card card-outline-inverse">
 <div class="card-body">
 <p>Standar Pembiyaan</p>
-<a href="?hal=bos&menu=std_biaya" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pembiyaan"><i class="mdi mdi-account-edit"></i></a>
+<a href="?hal=bos&menu=std_biaya" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pembiyaan"><i class="mdi mdi-currency-usd"></i></a>
 </div>
 </div>
 </div>
