@@ -23,7 +23,7 @@
                 <div class="card card-outline-inverse">
                     <div class="card-body">
                         <p>Standar Proses</p>
-                        <a href="?hal=bos&menu=std_process" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Proses"><i class="mdi mdi-human-child"></i></a>
+                        <a href="?hal=bos&menu=std_process" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Proses"><i class="fa fa-spin fa-gear"></i></a>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                 <div class="card card-outline-inverse">
                     <div class="card-body">
                         <p style="font-size: 14.5px;">Pendidikan & Tenaga Kependidikan</p>
-                        <a href="?hal=bos&menu=pen_tk" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Pendidikan & Tenaga Kependidikan"><i class="mdi mdi-human-greeting"></i></a>
+                        <a href="?hal=bos&menu=pen_tk" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Pendidikan & Tenaga Kependidikan"><i class="fa fa-group "></i></a>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
 <div class="card card-outline-inverse">
 <div class="card-body">
 <p>Sarana dan Prasarana Sekolah</p>
-<a href="?hal=bos&menu=sarpra_sekolah" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Sarana dan Prasarana Sekolah"><i class="mdi mdi-bus"></i></a>
+<a href="?hal=bos&menu=sarpra_sekolah" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Sarana dan Prasarana Sekolah"><i class="fa fa-institution"></i></a>
 </div>
 </div>
 </div>

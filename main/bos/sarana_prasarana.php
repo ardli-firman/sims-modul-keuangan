@@ -1,11 +1,11 @@
 <div class="row page-titles">
     <div class="col-md-5 align-self-center">
-        <h3 class="text-themecolor">Sarana dan Prasarana Sekolah</h3>
+        <h3 class="text-themecolor">Sarana Prasarana</h3>
     </div>
     <div class="col-md-7 align-self-center">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="?hal=bos">Home</a></li>
-            <li class="breadcrumb-item">Sarana dan Prasarana Sekolah</li>
+            <li class="breadcrumb-item">Sarana Prasarana</li>
         </ol>
     </div>
 </div>
@@ -17,7 +17,7 @@
                     <form>
                         <div class="form-body">
                             <h3 class="card-title">
-                            Sarana dan Prasarana Sekolah
+                            Sarana Prasarana
                             </h3>
                             <hr>
                             <div class="row p-t-20">
@@ -27,34 +27,79 @@
                                         <input type="date" class="form-control" name="tanggal" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="uraian">Uraian<code>*</code></label>
+                                        <label for="uraian">Uraian kegiatan<code>*</code></label>
                                         <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian" required></textarea>
                                     </div>
+                                    
                                     <div class="form-group">
-                                        <label for="berkas">Berkas</label>
-                                        <div class="custom-file mb-3">
-                                            <div class="fileinput input-group fileinput-new" data-provides="fileinput">
-                                                <div class="form-control" data-trigger="fileinput">
-                                                    <i class="fa fa-file fileinput-exists"></i>
-                                                    <span class="fileinput-filename"></span>
+                                        <label for="uraian" style="font-size: 20px;">Sumber Dana BOS</label>
+                                    </div><hr>
+                                    
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="rutin">Rutin<code>*</code></label>
+                                            <div class="input-group">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Rp.</span>
                                                 </div>
-                                                <span class="input-group-addon btn btn-secondary btn-file">
-                                                    <span class="fileinput-new">Select file</span>
-                                                    <span class="fileinput-exists">Change</span>
-                                                    <input type="hidden" value="" name="..."><input type="file" name="">
-                                                </span>
-                                                <a href="#" class="input-group-addon btn btn-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                                <input type="number" class="form-control" name="rutin" id="rutin" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="pusat">Pusat<code>*</code></label>
+                                            <div class="input-group">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Rp.</span>
+                                                </div>
+                                                <input type="number" class="form-control" name="pusat" id="pust" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                         
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="provinsi">Provinsi<code>*</code></label>
+                                            <div class="input-group">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Rp.</span>
+                                                </div>
+                                                <input type="number" class="form-control" name="provinsi" id="provinsi" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="pusat">Kota.Kab.<code>*</code></label>
+                                            <div class="input-group">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Rp.</span>
+                                                </div>
+                                                <input type="number" class="form-control" name="pusat" id="pust" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="bantuan-lain">Bantuan Lain<code>*</code></label>
+                                            <div class="input-group">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Rp.</span>
+                                                </div>
+                                                <input type="number" class="form-control" name="bantuan-lain" id="bantuan-lain" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="sumber-pendapatan">Sumber Pendapatan<code>*</code></label>
+                                            <div class="input-group">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Rp.</span>
+                                                </div>
+                                                <input type="number" class="form-control" name="sumber-pendapatan" id="sumber-pendapatan" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="nominal">Nominal <code>*</code></label>
-                                        <div class="input-group">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">Rp.</span>
-                                            </div>
-                                            <input type="number" class="form-control" name="nominal" id="nominal" required>
-                                        </div>
+                                        <small><label>Bertanda <code>*</code> wajib di isi</label></small>
                                     </div>
                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Simpan</button>
                                 </div>
