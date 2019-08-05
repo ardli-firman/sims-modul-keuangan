@@ -27,11 +27,15 @@
                                         <input type="date" class="form-control" name="tanggal" required>
                                     </div>
                                     <div class="form-group">
+                                        <label for="no_kode">No Kode<code>*</code></label>
+                                        <input type="number" class="form-control" name="no_kode" placeholder="Masukkan no kode">
+                                    </div>
+                                    <div class="form-group">
                                         <label for="uraian">Uraian<code>*</code></label>
                                         <textarea class="form-control" id="uraian" name="uraian" placeholder="Masukkan uraian" required></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <label for="berkas">Berkas</label>
+                                        <label for="berkas">Berkas <code>*</code></label>
                                         <div class="custom-file mb-3">
                                             <div class="fileinput input-group fileinput-new" data-provides="fileinput">
                                                 <div class="form-control" data-trigger="fileinput">
@@ -45,6 +49,7 @@
                                                 </span>
                                                 <a href="#" class="input-group-addon btn btn-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
                                             </div>
+                                            <small>Ukuran maksimal 500kb dengan ketentuan format .jpg, .png, .pdf</small>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -55,6 +60,9 @@
                                             </div>
                                             <input type="number" class="form-control" name="nominal" id="nominal" required>
                                         </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <small><code>Note : Yang bertanda * wajib diisi</code></small>
                                     </div>
                                     <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Simpan</button>
                                 </div>
