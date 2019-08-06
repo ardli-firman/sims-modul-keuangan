@@ -71,6 +71,14 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-outline-inverse">
+                    <div class="card-body">
+                        <p>Laporan Bos</p>
+                        <a href="?hal=bos&menu=laporan" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Standar Pembiyaan"><i class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

@@ -48,6 +48,9 @@
                         case 'pen_tk';
                             require_once 'bos/pen_tk.php';
                             break;
+                        case 'laporan';
+                            require_once 'bos/laporan.php';
+                            break;
                         case 'kom_lulusan':
                             require_once 'bos/kompetensi_lulusan.php';
                             break;
