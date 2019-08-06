@@ -14,6 +14,44 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
+                    <h4 class="card-title">Kas</h4>
+                    <h5 for="">Cetak data kas</h5>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-daterange input-group" id="date-range">
+                                        <select name="start" id="start" class="form-control">
+                                            <option value="1">Januari</option>
+                                            <option value="2">Februari</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text bg-info b-0 text-white">Sampai</span>
+                                        </div>
+                                        <select name="end" id="end" class="form-control">
+                                            <option value="1">Januari</option>
+                                            <option value="2">Februari</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <button class="btn btn-primary">Cetak</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
                     <h4 class="card-title">Data kas</h4>
                     <table id="tabel-kas">
                         <thead>
